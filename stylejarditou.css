@@ -1,0 +1,29 @@
+header{display: flex;font-size: 2rem; gap: 40rem;
+}
+
+header img{ max-width: 20rem;height: auto;
+}
+
+ul{background-color: black; 
+    display: flex; 
+    padding: 2rem ; 
+    gap: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+nav img{width: 100%; height: auto;
+}
+
+
+a{color: white;    
+}
+
+h1{font-size: 2rem;
+}
+
+h2{font-size: 1rem;
+}
+
+
+
+
