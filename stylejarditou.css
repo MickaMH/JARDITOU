@@ -1,40 +1,39 @@
-header{display: flex;font-size: 2rem; gap: 40rem;
-}
+header{display: flex;font-size: 2rem; gap: 40rem;}
 
-header img{ max-width: 20rem;height: auto;
-}
+header img{ max-width: 20rem;height: auto;}
 
 ul{background-color: black; 
     display: flex; 
     padding: 2rem ; 
     gap: 2rem;
     margin-bottom: 0.2rem;
-    margin-top: 0.2rem;
-}
+    margin-top: 0.2rem;}
 
-nav img{width: 100%; height: auto;
-}
+nav img{width: 100%; height: auto;}
 
 
-a{color: white;    
-}
+a{color: white;}
 
-h1{font-size: 2rem;
-}
+h1{font-size: 2rem;}
 
-h2{font-size: 1rem;
-}
+h2{font-size: 1rem;}
 
-div{display: flex;
-}
+div{display: flex;}
 
-aside{width: 27rem;
+aside{width: 30%;
     background-color: grey;
     border:0.1rem solid black;
-    float: right;
-    color: black;
-}
+    margin-left: 0.5rem;}
 
-section{flex-wrap: wrap;
-}
+
+td{ width:15rem;
+    height: 8rem;
+    text-align: center;
+    border: 0.1rem solid black;}
+
+main{width: 70%;height: auto;}
+
+section{width: 70%; height: auto;}
+
+fieldset{border:0.1rem solid black}
 
