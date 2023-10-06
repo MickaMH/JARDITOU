@@ -2,89 +2,83 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Contact</title>
     <link rel="stylesheet" href="stylejarditou.css" type="text/css" media="all">
 </head>
 
-<body>    
+    <body>    
 
-    <header>
-        <img src="Assets/Img/jarditou_logo.jpg" alt="Logo Jarditou" title="Logo Jarditou">
-        <p>Tout le jardin</p>
-    </header>
+        <header>
+            <img src="Assets/Img/jarditou_logo.jpg" alt="Logo Jarditou" title="Logo Jarditou">
+            <p>Tout le jardin</p>
+        </header>
 
-<nav>
-    <ul>
-        <li><a href="Index.html" >Accueil</a></li>
-        <li><a href="Tableau.html" >Tableau</a></li>
-        <li><a href="Contact.html" >Contact</a></li>
-    </ul>
-        <img src="Assets/Img/promotion.jpg" alt="Promotion sur lames de terrasse" title="Promotion sur lames de terrasse">
-</nav>
+        <nav>
+            <ul>
+            <li><a href="Index.html" >Accueil</a></li>
+            <li><a href="Tableau.html" >Tableau</a></li>
+            <li><a href="Contact.html" >Contact</a></li>
+            </ul>
+            <img src="Assets/Img/promotion.jpg" alt="Promotion sur lames de terrasse" title="Promotion sur lames de terrasse">
+        </nav>
         
-    <div>
-    <main>
-    
-        <h1>Contact</h1>
-
-<sup>*</sup> Ces zones sont obligatoires<br>
-    
-
-<form action="http://bienvu.net/script.php" method="GET">
-        <fieldset>
-            <legend>Vos coordonnées</legend>
-    
-        <label for="nom">Votre nom <sup>*</sup>: </label><input type="text" name="nom" id="nom"><br>
-
-        <label for="prénom">Votre prénom <sup>*</sup>: </label><input type="text" name="prénom" id="prénom"><br>
-    
-        Sexe <sup>*</sup>: <input type="radio" name="sexe" id="féminin" value="féminin"> <label for="féminin">Féminin</label> 
-            <input type="radio" name="sexe" id="masculin" value="masculin" checked > <label for="masculin">Masculin</label><br>
-    
-        <label for="date">Date de naissance<sup>*</sup>: </label><input type="date" name="ddn" id="date"><br>
-    
-        <label for="codepostal">Code postal<sup>*</sup>: </label><input type="text" name="codepostal" id="codepostal"><br>
-    
-        <label for="adresse">Adresse : </label><input type="text" name="adresse" id="adresse"><br>
-    
-        <label for="ville">Ville : </label><input type="text" name="ville" id="ville"><br>
-    
-        <label for="email">Email<sup>*</sup>: </label><input type="email" name="email" id="email" size="25" value="dave.loper@afpa.fr"><br>
-    </fieldset>
+        <div>
             
-    <fieldset>
-            <legend>Votre demande</legend>
+            <main>
+    
+                <h1>Contact</h1>
 
-            <label for="sujet">Sujet<sup>*</sup>: </label>
-                <select id="sujet">
-                <option value="Veuillez séléctionner un sujet" selected>Veuillez séléctionner un sujet</option>
-                <option value="Mes commandes">Mes commandes</option>
-                <option value="Question sur un produit">Question sur un produit</option> 
-                <option value="Réclamation">Réclamation</option> 
-                <option value="Autres">Autres</option>
-                </select><br>
+                <sup>*</sup> Ces zones sont obligatoires<br>
+    
+                <form action="http://bienvu.net/script.php" method="GET">
+                    
+                    <fieldset>
+                        <legend>Vos coordonnées</legend>
+                        <label for="nom">Votre nom <sup>*</sup>: </label><input type="text" name="nom" id="nom"><br>
+                        <label for="prénom">Votre prénom <sup>*</sup>: </label><input type="text" name="prénom" id="prénom"><br>
+                        Sexe <sup>*</sup>: <input type="radio" name="sexe" id="féminin" value="féminin"> <label for="féminin">Féminin</label> 
+                        <input type="radio" name="sexe" id="masculin" value="masculin" checked > <label for="masculin">Masculin</label><br>
+                        <label for="date">Date de naissance<sup>*</sup>: </label><input type="date" name="ddn" id="date"><br>
+                        <label for="codepostal">Code postal<sup>*</sup>: </label><input type="text" name="codepostal" id="codepostal"><br>
+                        <label for="adresse">Adresse : </label><input type="text" name="adresse" id="adresse"><br>
+                        <label for="ville">Ville : </label><input type="text" name="ville" id="ville"><br>
+                        <label for="email">Email<sup>*</sup>: </label><input type="email" name="email" id="email" size="25" value="dave.loper@afpa.fr"><br>
+                    </fieldset>
             
-            Votre question<sup>*</sup>: <textarea name="commentaire" rows="2" cols="25"></textarea><br>
-    </fieldset>    
+                    <fieldset>
+                        <legend>Votre demande</legend>
+                        <label for="sujet">Sujet<sup>*</sup>: </label>
+                        <select id="sujet">
+                            <option value="Veuillez séléctionner un sujet" selected>Veuillez séléctionner un sujet</option>
+                            <option value="Mes commandes">Mes commandes</option>
+                            <option value="Question sur un produit">Question sur un produit</option> 
+                            <option value="Réclamation">Réclamation</option> 
+                            <option value="Autres">Autres</option>
+                        </select><br>
+                        Votre question<sup>*</sup>: <textarea name="commentaire" rows="2" cols="25"></textarea><br>
+                    </fieldset>    
 
-            <input type="checkbox" name="cochercase" value=" J'accepte le traitement informatique de ce formulaire"><sup>*</sup> J'accepte le traitement informatique de ce formulaire<br>
-<br>
-            <input type="submit" value="Envoyer"><input type="submit" value="Annuler">
+                    <input type="checkbox" name="cochercase" value=" J'accepte le traitement informatique de ce formulaire"><sup>*</sup> J'accepte le traitement informatique de ce formulaire<br>
+                    <br>
+                    <input type="submit" value="Envoyer"><input type="submit" value="Annuler">
 
-    </form>
-    </main>   
-    <aside>[COLONNE DROITE]</aside>
-    </div>
+                </form>
+            
+            </main>   
+            
+            <aside>[COLONNE DROITE]</aside>
+        
+        </div>
 
 
-    <footer>
-<ul>
-    <li><a href="Mentionslégales.html" >Mentions légales</a></li>
-    <li><a href="Horaires.html" >Horaires</a></li>
-    <li><a href="Plandusite.html" >Plan du site</a></li>
-</ul>
-    </footer>
+        <footer>
+            <ul>
+                <li><a href="Mentionslégales.html" >Mentions légales</a></li>
+                <li><a href="Horaires.html" >Horaires</a></li>
+                <li><a href="Plandusite.html" >Plan du site</a></li>
+            </ul>
+        </footer>
 
-</body>
+    </body>
 </html>
