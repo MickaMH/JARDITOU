@@ -1,6 +1,10 @@
-header{display: flex;font-size: 2rem; gap: 40rem;}
+html{font-size: 100%;}
 
-header img{ max-width: 20rem;height: auto;}
+header{display: flex; font-size: 2rem;}
+
+header img{width: 20rem;height: auto;}
+
+header p{ margin-left: 35rem;}
 
 ul{background-color: black; 
     display: flex; 
@@ -11,22 +15,22 @@ ul{background-color: black;
 
 nav img{width: 100%; height: auto;}
 
-
 a{color: white;}
 
 h1{font-size: 2rem;}
 
 h2{font-size: 1rem;}
 
+strong{ font-size: 1.5rem;}
+
 div{display: flex;}
 
 aside{width: 30%;
-    background-color: grey;
-    border:0.1rem solid black;
-    margin-left: 0.5rem;}
+        background-color: grey;
+        border:0.1rem solid black;
+        margin-left: 0.5rem;}
 
-
-td{ width:15rem;
+td{width:15rem;
     height: 8rem;
     text-align: center;
     border: 0.1rem solid black;}
