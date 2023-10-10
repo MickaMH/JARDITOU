@@ -2,11 +2,14 @@ html{font-size: 100%;}
 
 header{display: flex; font-size: 2rem;}
 
-header img{width: 20rem;height: auto;}
+header img{width: 30rem;height: auto;}
 
-header p{ margin-left: 35rem;}
+header p{ font-size: 2rem;
+            margin-left: 35rem;
+            margin-top: 4rem;}
 
-ul{background-color: black; 
+ul{font-size: 1.2rem;
+    background-color: black; 
     display: flex; 
     padding: 2rem ; 
     gap: 2rem;
@@ -17,11 +20,9 @@ nav img{width: 100%; height: auto;}
 
 a{color: white;}
 
-h1{font-size: 3rem;}
+h1{font-size: 2.5rem;}
 
 h2{font-size: 1.5rem;}
-
-strong{ font-size: 1.5rem;}
 
 div{display: flex;}
 
@@ -30,14 +31,32 @@ aside{width: 30%;
         border:0.1rem solid black;
         margin-left: 0.5rem;}
 
-td{width:15rem;
+td{ font-size: 1.2rem;
+    width:15rem;
     height: 8rem;
     text-align: center;
     border: 0.1rem solid black;}
 
-main{width: 70%;height: auto;}
+main{font-size: 1.2rem;
+    width: 70%;height: auto;}
 
 section{width: 70%; height: auto;}
 
-fieldset{border:0.1rem solid black}
+fieldset{border:0.1rem solid black;
+         margin-right: 45rem;}
 
+th{ font-size: 1.5rem;
+    width:15rem;
+    height: 4rem;
+    text-align: center;
+    border: 0.1rem solid black;}
+
+sup{ color: red ;}
+
+input.boutons{ margin-left: 13rem;
+                margin-bottom: 0.2rem;}
+
+p{ line-height: 2rem; 
+    font-size: 1.2rem;}                
+
+form{ line-height: 1.8rem;}
